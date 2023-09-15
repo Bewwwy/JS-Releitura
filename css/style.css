@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(86, 86, 146);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.main {
+    background-color: rgb(180, 180, 219);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+}
+
+footer {
+    background-color: rgb(42, 42, 58);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+form {
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 350px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2%;
+}
+
+.cima {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2%;
+}
+
+.baixo {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.num {
+    height: 15%;
+    width: 90%;
+    text-align: center;
+    border-color: rgb(36, 34, 48);
+    outline: transparent;
+    border-radius: 5px;
+}
+
+#um {
+    margin-top: 10%;
+}
+
+.btn {
+    width: 22%;
+    height: 100%;
+    border-color: rgb(36, 34, 48);
+    outline: transparent;
+    border-radius: 5px;
+}
+
+.botao {
+    display: flex;
+    height: 10%;
+    width: 80%;
+    gap: 5%;
+}
+
+.btn2{
+    height: 40%;
+    text-align: center;
+    outline: transparent;
+    border-color: rgb(36, 34, 48);
+    border-radius: 5px;
+}
